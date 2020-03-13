@@ -1,4 +1,4 @@
-.rmdb-heroimage {
+.showPedia-heroimage {
   background-size: 100%, cover !important;
   background-position: center, center !important;
   width: 100%;
@@ -16,13 +16,13 @@
   }
 }
 
-.rmdb-heroimage-content {
+.showPedia-heroimage-content {
   max-width: 1280px;
   padding: 20px;
   margin: 0 auto;
 }
 
-.rmdb-heroimage-text {
+.showPedia-heroimage-text {
   z-index: 100;
   max-width: 700px;
   position: absolute;
@@ -33,30 +33,32 @@
   color: #fff;
 }
 
-.rmdb-heroimage-text h1 {
-  font-family: 'Abel', sans-serif;
+.showPedia-heroimage-text h1 {
+  font-family: 'Dosis', sans-serif;
+  font-weight: 800;
   font-size:48px;
   color: #fff;
 }
 
-.rmdb-heroimage-text p {
-  font-family: 'Abel', sans-serif;
+.showPedia-heroimage-text p {
+  font-family: 'Dosis', sans-serif;
   font-size: 22px;
-  line-height: 26px;
+  letter-spacing: 1px;
+  line-height: 1.5;
   color: #fff;
 }
 
 @media screen and (max-width: 720px) {
-  .rmdb-heroimage-text {
+  .showPedia-heroimage-text {
     max-width: 100%;
   }
 
-  .rmdb-heroimage-text h1 {
+  .showPedia-heroimage-text h1 {
     font-size: 38px;
     color: #fff;
   }
 
-  .rmdb-heroimage-text p {
+  .showPedia-heroimage-text p {
     font-size: 16px;
     line-height: 20px;
     color: #fff;

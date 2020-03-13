@@ -1,19 +1,21 @@
-.rmdb-loadmorebtn {
+.showPedia-loadmorebtn {
   background: #16d47b;
   width: 100%;
-  min-height: 50px;
+  font-size: 24px;
+  border-radius: 24px;
+  padding: 8px 0;
   text-align: center;
   color: #fff;
   cursor: pointer;
   transition: all 0.3s;
 }
 
-.rmdb-loadmorebtn p {
-  font-family: 'Abel', sans-serif;
+.showPedia-loadmorebtn p {
+  font-family: 'Dosis', sans-serif;
   font-size:42px;
   padding: 20px;
 }
 
-.rmdb-loadmorebtn:hover {
+.showPedia-loadmorebtn:hover {
   opacity: 0.8;
 }

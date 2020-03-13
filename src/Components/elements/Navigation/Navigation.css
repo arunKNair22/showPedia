@@ -1,4 +1,4 @@
-.rmdb-navigation {
+.showPedia-navigation {
   width: 100%;
   height: 50px;
   background: #353535;
@@ -10,15 +10,15 @@
   padding-top: 10px;
 }
 
-.rmdb-navigation-content {
+.showPedia-navigation-content {
   max-width: 1280px;
   margin: 0 auto;
   padding: 0 20px;
 
 }
 
-.rmdb-navigation-content p {
-  font-family: 'Abel', sans-serif;
+.showPedia-navigation-content p {
+  font-family: 'Dosis', sans-serif;
   font-size: 22px;
   float: left;
   color: #fff;

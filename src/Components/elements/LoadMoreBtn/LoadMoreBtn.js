@@ -3,7 +3,7 @@ import './LoadMoreBtn.css'
 
 const LoadMoreBtn = (props) => {
   return (
-    <div>
+    <div className="showPedia-loadmorebtn" onClick={props.onClick}>
       Load More
     </div>
   )

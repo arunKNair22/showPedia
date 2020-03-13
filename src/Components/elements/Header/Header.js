@@ -1,13 +1,16 @@
 import React, { Component } from 'react'
+import { Link } from 'react-router-dom'
 import './Header.css'
 
 export class Header extends Component {
   render() {
     return (
-      <div className="rmdb-header">
-        <div className="rmdb-header-content">
-          <img src="./img/showpedia-logo.png" alt="showPedia" className="rmdb-logo"/>
-          <img src="./img/tmdb-green-logo.png" alt="powered by tmdb" className="rmdb-tmdb-logo"/>
+      <div className="showPedia-header">
+        <div className="showPedia-header-content">
+          <Link to="/">
+            <img src="./img/showpedia-logo.png" alt="showPedia" className="showPedia-logo"/>
+          </Link>
+          <img src="./img/tmdb-green-logo.png" alt="powered by tmdb" className="showPedia-tmdb-logo"/>
         </div>
       </div>
     )

@@ -1,4 +1,4 @@
-.rmdb-header {
+.showPedia-header {
   width: 100%;
   height: auto;
   background: #1c1c1c;
@@ -6,7 +6,7 @@
   box-sizing: border-box;
 }
 
-.rmdb-header-content {
+.showPedia-header-content {
   max-width: 1280px;
   height: auto;
   padding: 16px 0px;
@@ -15,31 +15,31 @@
   overflow: hidden;
 }
 
-.rmdb-logo {
-  width: 300px;
-  height: 60px;
+.showPedia-logo {
+  width: 200px;
+  height: 40px;
   object-fit: cover;
   float: left;
 }
 
-.rmdb-tmdb-logo {
-  height: 60px;
+.showPedia-tmdb-logo {
+  height: 40px;
   float: right;
 }
 
 @media screen and (max-width: 500px) {
-  .rmdb-header-content {
+  .showPedia-header-content {
     max-width: 1280px;
     min-height: 0px;
   }
 
-  .rmdb-tmdb-logo {
+  .showPedia-tmdb-logo {
     display: inline-block;
     width:80px;
     margin-top: 0px;
   }
 
-  .rmdb-logo {
+  .showPedia-logo {
     width: 150px;
     margin-top: 5px;
   }

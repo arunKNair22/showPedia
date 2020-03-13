@@ -1,19 +1,21 @@
-.rmdb-grid h1 {
-  font-family: 'Abel', sans-serif;
-  font-size:42px;
+.showPedia-grid h1 {
+  font-family: 'Dosis', sans-serif;
+  font-weight: 800;
+  font-size: 42px;
 }
 
-.rmdb-grid-content {
+.showPedia-grid-content {
   display: grid;
   grid-template-columns: auto auto auto auto;
 }
 
-.rmdb-grid-element {
+.showPedia-grid-element {
   margin: 0 40px 40px 0;
   background: #353535;
   max-height: 430px;
   animation: animateGrid 0.5s;
   overflow: hidden;
+  border-radius: 24px;
 }
 
 @keyframes animateGrid {
@@ -26,20 +28,20 @@
 }
 
 /* For a 4-column grid */
-.rmdb-grid-element:nth-child(4n+4) {
+.showPedia-grid-element:nth-child(4n+4) {
   margin-right: 0;
 }
 
 @media screen and (max-width: 720px) {
-  .rmdb-grid-content {
+  .showPedia-grid-content {
     grid-template-columns: auto auto;
   }
 
-  .rmdb-grid-element:nth-child(2n+2) {
+  .showPedia-grid-element:nth-child(2n+2) {
     margin-right: 0;
   }
 
-  .rmdb-grid h1 {
+  .showPedia-grid h1 {
     font-size:22px;
   }
 }

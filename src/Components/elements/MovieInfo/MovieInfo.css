@@ -1,8 +1,8 @@
-.rmdb-movieinfo {
+.showPedia-movieinfo {
   background-size: cover !important;
   background-position: center !important;
   width: 100%;
-  height: 600px;
+  height: 500px;
   padding: 40px 20px;
   box-sizing: border-box;
   animation: animateMovieinfo 1s;
@@ -17,7 +17,7 @@
   }
 }
 
-.rmdb-movieinfo-content {
+.showPedia-movieinfo-content {
   max-width: 1280px;
   width: 100%;
   height: 100%;
@@ -26,7 +26,7 @@
   position: relative;
 }
 
-.rmdb-movieinfo-thumb {
+.showPedia-movieinfo-thumb {
   width: 350px;
   height: 100%;
   overflow: hidden;
@@ -34,8 +34,8 @@
   left: 0px;
 }
 
-.rmdb-movieinfo-text {
-  font-family: Arial, Helvetica, sans-serif;
+.showPedia-movieinfo-text {
+  font-family: 'Dosis', sans-serif;
   height: 100%;
   width: auto;
   padding: 40px;
@@ -46,39 +46,39 @@
   left: 360px;
 }
 
-.rmdb-movieinfo-text h1 {
-  font-family: 'Abel', sans-serif;
+.showPedia-movieinfo-text h1 {
+  font-family: 'Dosis', sans-serif;
   font-size:48px;
   margin: 0;
 }
 
-.rmdb-movieinfo-text h3 {
+.showPedia-movieinfo-text h3 {
   font-size: 16px;
   line-height: 0;
   margin-top: 30px;
 }
 
-.rmdb-movieinfo-text p {
-  font-family: 'Abel', sans-serif;
+.showPedia-movieinfo-text p {
+  font-family: 'Dosis', sans-serif;
   font-size: 18px;
   line-height: 26px;
 }
 
-.rmdb-rating {
+.showPedia-rating {
   width: 250px;
   height: 20px;
   margin-top: 20px;
   position: relative;
 }
 
-.rmdb-score {
+.showPedia-score {
   position: absolute;
   margin: 0;
   right: 0px;
   top: -3px;
 }
 
-.rmdb-director {
+.showPedia-director {
   margin: 0;
 }
 
